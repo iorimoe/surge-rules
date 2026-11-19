@@ -1,0 +1,20 @@
+# Claude 服务域名（Surge RULE-SET）
+# 核对日期：2026-11-19
+# Claude Desktop 网络要求：https://code.claude.com/docs/en/desktop#network-access-requirements
+# Claude Code 网络要求：https://code.claude.com/docs/en/network-config#network-access-requirements
+
+# Claude 网页、账户登录、开发者平台和 Anthropic API
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+
+# 桌面端实时预览、Artifacts 内容和浏览器连接
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# 对话中由 MCP 连接器提供的交互组件
+DOMAIN-SUFFIX,claudemcpcontent.com
+
+# 官方短链接和旧版 Artifacts 分享链接
+DOMAIN,clau.de
+DOMAIN,claude.site
