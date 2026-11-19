@@ -1,0 +1,15 @@
+# OpenAI 核心服务域名（Surge RULE-SET）
+# 核对日期：2026-11-19
+# 官方网络说明：https://help.openai.com/en/articles/9247338
+
+# ChatGPT、OpenAI API、Codex 和账户登录
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+
+# 静态资源和用户文件
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# OpenAI 官方网络清单中的其他服务
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN,cdn.openaimerge.com
